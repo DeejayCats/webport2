@@ -821,21 +821,3 @@ section {
 html {
     scroll-behavior: smooth;
 }
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #82d2e0 0%, #91dee2 100%);
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #599fd8 0%, #637fca 100%);
-}
